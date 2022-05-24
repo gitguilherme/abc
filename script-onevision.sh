@@ -53,10 +53,8 @@ read -p "Press Enter to continue ..."
 docker exec -i DBOneVision sh -c 'exec mysql -u root -purubu100 onevision' <"onevision-oficial.sql"
 
 
-echo "Clonando o repositorio da aplicação OneVision."
-https://github.com/CarlosFelixxs/onevision-jar.git
 echo "Entrando no repositorio do projeto."
-cd onevision-jar
+cd abc
 echo "Executando o jar"
 chmod +x One-Vision-1.0-SNAPSHOT-jar-with-dependencies
 java -jar One-Vision-1.0-SNAPSHOT-jar-with-dependencies 
